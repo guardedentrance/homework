@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Splatoon2</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <meta name="keywords" content="Splatoon2, 漆彈大作戰2, Switch">
+
+
+
+</head>
+
+<body>
+    <!-- 陶ㄟ選單 -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+            <div class="container">
+                <!-- LOGO -->
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" width="20%"" alt=" logo" />
+                </a>
+                <!-- 手機選單漢堡按鈕 -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                    <!-- 漢堡ICON -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <!-- 選單內容 -->
+                <div id="navbar-collapse" class="coolapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="#game" class="nav-link">遊戲</a></li>
+                        <li><a href="#video" class="nav-link">介紹</a></li>
+                        <li><a href="#machine" class="nav-link">機體</a></li>
+                        <li><a href="#price" class="nav-link">售價</a></li>
+                        <li><a href="#standard" class="nav-link">規格</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 可以輪播的Banner圖片 -->
+    <section id="game">
+        <div id="carousel-controller" class="carousel slide" data-ride="carousel">
+            <!-- 輪播圖片 -->
+            <div class="carousel-inner">
+                <!-- 圖片1 -->
+                <div class="carousel-item active">
+                    <img class="w-100" src="images/Banner1.jpg" alt="Splatoon2 review">
+                    <div class="carousel-caption">
+                        <h1>Splatoon2 review</h1>
+                        <p>same great gameplay, same online problems</p>
+                    </div>
+                </div>
+                <!-- 圖片2 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/Banner2.jpg" alt="Tower Control">
+                    <div class="carousel-caption">
+                        <span style="color:Black;">
+                            <h1>Tower Control</h1>
+                            <p>Ranked Battle Gameplay</p>
+                        </span>
+                    </div>
+                </div>
+                <!-- 圖片3 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/Banner3.jpg" alt="Splatoon GamePlay">
+                    <div class="carousel-caption">
+                        <h1>Splatoon2 GamePlay</h1>
+                        <p>The Ink-Covered Awesomeness of the Splatoon Global Testfire</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 圖片上一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <!-- 圖片下一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="next" class=" carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+            <!-- 下方長條狀 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-controller" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-controller" data-slide-to="1"></li>
+                <li data-target="#carousel-controller" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- 影片 -->
+    <section class="container-fluid video-area" id="video">
+        <div class="video-container">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/CROuiq-YjlI" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+
+
+    <!-- 錢包深淺介紹區塊 -->
+    <section id="machine" class="machine_area">
+        <div class="container">
+            <h2 class="text-center">
+                Nintendo Switch
+            </h2>
+            <!-- Switch照片 -->
+            <div class="row">
+                <!-- 照片組1 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照1" src="images/Switch01.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">雙手簡易上手</span>
+                                <span class="card-text">就是機體有點貴</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>就連我 也還沒擁有</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組2 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照2" src="images/Switch02.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">雙手簡易上手</span>
+                                <span class="card-text">就是機體有點貴</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>就連我 也還沒擁有</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組3 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照3" src="images/Switch03.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">四手霸王簡易上手</span>
+                                <span class="card-text">就是機體有點貴</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>就連我 也還沒擁有</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 文案 -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="article_text">
+                    <h3>日常的休閒</h3>
+                    <p>每天上午 第一顆太陽蛋</br>
+                        再來打個Switch</br>
+                        遊戲明明如此簡單</br>
+                        機體卻如此的貴...
+                    </p>
+
+                    <h3>是在哈囉</h3>
+                    <p>抱歉我掰不下去了</br>
+                        因為太晚了 想睡了</br>
+                    </p>
+
+                    <h1>Splatoon2</h1>
+                    <p>遊戲的設計風格 亂鬥的歡快感</br>
+                        給您兼顧歡樂與太陽蛋
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 背景影片 -->
+        <div class="container">
+            <video autoplay muted loop id="myVideo">
+                <source src="video/egg.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <!-- 價格 -->
+    <section id="price" class="activity_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 ml-100">
+                    <img src="images/Price.jpg">
+                </div>
+
+                <div class="col-md-4 ml-auto activity_price text-center">
+                    <h2>售價： <span>1790 </span>元</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 規格 -->
+    <section id="standard" class="standard_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <table class="table">
+                        <tr>
+                            <h5 scope="col">規格說明：</h5>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <th scope="row">中英文品名：</th>
+                                <td>Splatoon2漆彈大作戰2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">材質：</th>
+                                <td>塑膠(可以舔舔看 聽說很苦)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">內容物：</th>
+                                <td colspan="2">遊戲卡帶X1</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">產地：</th>
+                                <td colspan="2">日本</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <table class="table">
+                        <tr>
+                            <h5 scope="col">遊戲說明</h5>
+                        </tr>
+                        <ul class="standard_use">
+                            <li>《Splatoon》（日語：スプラトゥーン，台灣又譯作「漆彈大作戰」），遊戲主角為名為「墨靈」（インクリング，Inklings）的生物。</li>
+                            <li>其可以在人形與烏賊（イカ，Squid）形態之間自由轉換，用槍狀或刷狀武器在物體表面噴射彩色墨水，並在墨水裡潛泳。</li>
+                            <li>《Splatoon》提供有多種遊戲模式，包括4對4線上多人比賽，遊戲基本規則是以墨水噴塗地面，面積大者隊伍為勝。此外還有單人英雄模式以及1對1本地多人模式。</li>
+                            <li>《Splatoon》一經公布和發行就獲得了總體上正面的評價，輿論普遍讚賞任天堂決定以全新智慧財產權（IP）品牌進入這一遊戲類型，並積極稱讚了遊戲整體風格與畫面、遊戲玩法機制以及音樂。
+                            </li>
+                            <li>然而其另一方面，媒體也多批評遊戲缺少同類作品中的某些功能（例如音訊聊天）、必須使用Amiibo才能解鎖某些內容、多人地圖過少以及線上配對等問題。本作的續作為於任天堂Switch平台發行的《Splatoon2》。
+                            </li>
+                        </ul>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 貼心提醒 -->
+    <section>
+        <div class="container content">
+            <div class="row remind">
+                <h4>是在哈囉</h4>
+                <div class="w-100"></div>
+                <p>使用時請留意：</p>
+                <ul>
+                    <li>肩帶即將脫離肩膀。</li>
+                    <li>若再不將其提起，則會導致肩帶是在哈囉。</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 footer_logo">
+                    <img src="images/logoya.png">
+                </div>
+                <div class="col-md-4 col-sm-12 footer_address">
+                    <ul>
+                        <li>專 線：412-9889</li>
+                        <li>服務時間：週一至週五 9:00 ~ 18:00</li>
+                        <li>服務信箱：HelloWorld@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer_copyright justify-content-center">
+                <p>COPYRIGHT © 2019 Duel Links .ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+        <button type="button" id="BackTop" class="toTop-arrow"></button>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <!-- 滑動用jquery -->
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
